@@ -10,19 +10,19 @@ body {
     background-color: black;
 }
 
-#message {
+.message {
     font-family: 'spiegelsansregular';
     font-size: 12px;
 }
 
-#time {
-    color: #CEC8CC;
+.time {
+    color: #ECF2F0;
 }
 
-#infos {
+.nick {
     color: #32B1E8;
 }
 
-#message {
+.messageContent {
     color: #ECF2F0;
 }
