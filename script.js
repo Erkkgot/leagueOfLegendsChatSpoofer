@@ -10,14 +10,16 @@
 let createButton = document.getElementById('createNewMessage')
 let timeInput = document.getElementById('timeInput')
 let nickInput = document.getElementById('nickInput')
+let championInput = document.getElementById('championInput')
 let messageInput = document.getElementById('messageInput')
-let messagesDiv = document.getElementById('messages')
+let messagesDiv = document.getElementById('createdMessages')
 let messageIndex = 1
 
 function createNewMessage() {
     //Create Message
     let time = timeInput.value
     let nick = nickInput.value
+    let champion = championInput.value
     let message = messageInput.value
     let finalChat = ''
     if (time == '' || nick == '' || message == '') {
@@ -43,7 +45,7 @@ function createNewMessage() {
     messageSpan.className = "messageContent"
 
     timeSpan.textContent = time
-    nickSpan.textContent = " [Equipe] " + nick + " (Varus): "
+    nickSpan.textContent = " [Equipe] " + nick + " (" + champion + "): "
     messageSpan.textContent = message
 
     messageDiv.appendChild(timeSpan)
