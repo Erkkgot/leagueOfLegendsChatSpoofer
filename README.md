@@ -17,7 +17,7 @@ This repository contains the source code of a League of Legends chat spoofer.
 
 1. Clone this repository to your local machine.
 2. Navigate to the directory of the project.
-3. Open the `index.html` file with your web browser.
+3. Open the [`index.html`](https://github.com/Erkkgot/leagueOfLegendsChatGenerator/blob/main/index.html) file with your web browser.
 
 <img src="https://camo.githubusercontent.com/7e08ecd241cf9d35d81c5e03510fef2d7e153ba26e6db66e74b970c185fd3af2/68747470733a2f2f6d656469612e74656e6f722e636f6d2f56616e74394f477965396741414141432f7261696e626f772d6261722d646976696465722e67696620">
 
