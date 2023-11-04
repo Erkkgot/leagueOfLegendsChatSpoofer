@@ -14,9 +14,16 @@ body {
     background-color: #131200;
 }
 
+.startMessage {
+    font-family: 'spiegelsansregular';
+    font-size: 12pt;
+    color: #ab810a;
+}
+
 .message {
     font-family: 'spiegelsansregular';
-    font-size: 16pt;
+    font-size: 12pt;
+    color: #ab810a;;
 }
 
 .time {
@@ -30,6 +37,9 @@ body {
 .messageContent {
     color: #ECF2F0;
 }
+.narrationMessage {
+    color: #32B1E8;
+}
 
 #messages {
     top: 70%;
@@ -41,11 +51,13 @@ body {
     width: 517px;
     height: 463px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 #createdMessages {
     position: absolute;
+    margin-left: 5px;
+    margin-bottom: 5px;
     bottom: 0;
 }
 
