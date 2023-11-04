@@ -13,6 +13,8 @@ let nickInput = document.getElementById('nickInput')
 let championInput = document.getElementById('championInput')
 let messageInput = document.getElementById('messageInput')
 let messagesDiv = document.getElementById('createdMessages')
+let messagesGeralDiv = document.getElementById('messages')
+let chatBackground = document.getElementById('chatBackground')
 let messageIndex = 1
 
 function createNewMessage() {
@@ -54,7 +56,16 @@ function createNewMessage() {
     messagesDiv.appendChild(messageDiv)
 
     console.log(finalChat)
+    
     messageIndex++
 }
 
+chatBackground.addEventListener('input', () => {
+    if (chatBackground.value == 1) {
+        messagesGeralDiv.style.backgroundImage = " url(src/chatBackground.png)"
+    }
+    else if (chatBackground.value == 2) {
+        messagesGeralDiv.style.backgroundImage = " url(src/chatBackgroundAram.png)"
+    }
+})
 createButton.addEventListener('click', createNewMessage)

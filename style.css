@@ -47,8 +47,8 @@ body {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    background-image:  url(src/chatBackground.png);
     z-index: 2;
-    background-image: url(https://i.ibb.co/3SDR9w6/chat-Background.png);
     width: 517px;
     height: 463px;
     display: flex;
@@ -85,7 +85,11 @@ body {
     box-shadow: 0px 0px 15px #624F3F;
 }
 
-#form *:not(#createNewMessage){
+#form > #chatBackground {
+    text-align: center;
+}
+
+#form *:not(#chatBackground){
     margin-bottom: 7px;
     padding-inline-start: 15px;
 }
