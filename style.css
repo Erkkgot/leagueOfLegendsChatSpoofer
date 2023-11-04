@@ -23,7 +23,8 @@ body {
 .message {
     font-family: 'spiegelsansregular';
     font-size: 12pt;
-    color: #ab810a;;
+    color: #ab810a;
+    text-shadow: 1px 1px 1px black
 }
 
 .time {
