@@ -1,11 +1,3 @@
-/* Mensagem:
-    <div id='message[i]'>
-        <span id='time'>Time(00:00)</span>
-        <span id='infos'>[Chat] nick (Champion)</span>
-        <span id='messageContent'>message</span>
-    </div>*/
-
- 
 
 let createButton = document.getElementById('createNewMessage')
 let timeInput = document.getElementById('timeInput')
@@ -27,7 +19,6 @@ function createNewMessage() {
     if (time == '' || nick == '' || message == '') {
         return true
     }
-    finalChat = time + " [Equipe] " + nick + " (Varus): " + message
 
     // Attach message to page
 
@@ -55,7 +46,6 @@ function createNewMessage() {
     messageDiv.appendChild(messageSpan)
     messagesDiv.appendChild(messageDiv)
 
-    console.log(finalChat)
     
     messageIndex++
 }
