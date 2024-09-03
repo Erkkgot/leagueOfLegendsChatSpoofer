@@ -13,7 +13,31 @@
         <input type="text" name="" id="nickInput" placeholder="Nick">
         <input type="text" name="" id="championInput" placeholder="Champion">
         <input type="text" name="" id="messageInput" placeholder="Message">
-        <button id="createNewMessage">Create new message</button>
+        <div id="createMessageDiv">
+            <button id="createNewMessage">Create new message</button>
+
+            <select name="chat" id="selectChat">
+                <option value="1">Equipe</option>
+                <option value="2">Todos</option>
+            </select>
+            <select name="team" id="selectTeam">
+                <option value="1">Aliado</option>
+                <option value="2">Inimigo</option>
+            </select>
+        </div>
+
+        <div id="ping">
+            <button id="createNewPing">Create new Ping</button>
+            <select name="pingType" id="pingType">
+                <option value="1">Random</option>
+                <option value="2">Cuidado</option>
+                <option value="3">A caminho</option>
+                <option value="4">Assitência</option>
+                <option value="5">Desaparecidos</option>
+            </select>
+        </div>
+
+
 
         <select name="chatBackground" id="chatBackground">
             <option value="1">Summoners Rift 1</option>
@@ -26,10 +50,7 @@
     <div id="messages">
         <div id="createdMessages">
             <div class="message">Digite /help para ver a lista de comandos</div>
-            <div class="message">Pausa acionada. use '/pause' para pausa o jogo e '/resume' para retornar.</div>
             <div class="message">
-                <span class="time">00:00</span>
-                <span class="narrationMessage">Narrações personalizadas podem ser habilitadas ou desabilitadas em Opções -> Som</span>
             </div>   
         </div>
     </div>  
