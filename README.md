@@ -9,9 +9,15 @@ This repository contains the source code of a League of Legends chat spoofer.
    - II. Nick of the summoner that send the message
    - III. The champion that the person who sent the message was using
    - IV. The content of the message
-### 2. Click the "Create new message" button
+   - V. The team you want to sent the message
+   - VI. The chat you want to sent the message
+### 2. Click the "Create new Message" button
 ### 3. Create the messages you want
 ### 4. Print the table that was created below 
+### /// To create pings do this:
+### /// 1. Choose the ping you want to create
+### /// 2. Click the "Create new Ping" button
+     
 
 ## 🏃 How to Run the project
 
